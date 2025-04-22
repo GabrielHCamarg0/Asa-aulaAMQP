@@ -1,0 +1,27 @@
+# Ignorar arquivos de compilação
+*.o
+*.class
+
+# Ignorar arquivos gerados pelo IDE
+.idea/
+.vscode/
+
+# Ignorar arquivos de dependências
+/node_modules/
+/vendor/
+
+# Ignorar arquivos de saída do build
+/build/
+/dist/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos sensíveis
+config.ini
+secrets.txt
+
+#ignorar cache
+/__pycache__/
+#ignorar testes
+/Testes/
